@@ -224,13 +224,20 @@ td, th {
 .itens {
 	line-height: 1.5;
 }
-
+.itens:before {
+	content: "★";
+}
 .itens:first-child {
 	font-weight: bold;
 }
 
 .imagem-beneficios {
 	width: 60%;
+	box-shadow: 5px 5px 5px 0 #090909;
+}
+.imagem-beneficios:hover {
+	opacity: 30%;
+	transition: 400ms;
 }
 
 .video {
